@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: Text("Welcome to MyApp"),
+          child: Text("Under Construction!! Visit Later :)"),
         ),
       ),
       drawer: MyDrawer(),
