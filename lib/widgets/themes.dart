@@ -19,12 +19,12 @@ class MyTheme {
 
   //Colors
   static Color navyBlue = Color(0xFF1D3354);
-  static Color creamColor = Color(0xFFE0EFDA);
+  static Color creamColor = Color(0xFFF5F3F4);
   static Color cherry = Color(0xFFF50057);
 }
 
 class Palette {
-  static const Color primary = Color(0xFFF50057);
+  static const Color primary = Color(0xFF1D3354);
 }
 
 MaterialColor generateMaterialColor(Color color) {

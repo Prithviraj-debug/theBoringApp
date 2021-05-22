@@ -92,13 +92,13 @@ class _LoginPageState extends State<LoginPage> {
                       height: 40.0,
                     ),
                     Material(
-                      color: Colors.redAccent,
+                      color: Color(0xFF1D3354),
                       borderRadius:
                           BorderRadius.circular(changeButton ? 50 : 8),
                       child: InkWell(
                         onTap: () => moveToHome(context),
                         child: AnimatedContainer(
-                          duration: Duration(milliseconds: 400),
+                          duration: Duration(milliseconds: 300),
                           width: changeButton ? 50 : 150,
                           height: 50,
                           alignment: Alignment.center,
