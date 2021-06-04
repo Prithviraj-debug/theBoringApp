@@ -36,10 +36,13 @@ class _LoginPageState extends State<LoginPage> {
           key: _formKey,
           child: Column(
             children: [
-              Image.asset(
-                "assets/images/Login.png",
-                fit: BoxFit.cover,
+              SizedBox(
+                height: 30.0,
               ),
+              Image.asset(
+                "assets/images/Logo.png",
+                fit: BoxFit.cover,
+              ).p(10),
               SizedBox(
                 height: 20.0,
               ),
@@ -100,8 +103,8 @@ class _LoginPageState extends State<LoginPage> {
                         onTap: () => moveToHome(context),
                         child: AnimatedContainer(
                           duration: Duration(milliseconds: 300),
-                          width: changeButton ? 50 : 150,
-                          height: 50,
+                          width: changeButton ? 55 : 150,
+                          height: 55,
                           alignment: Alignment.center,
                           child: changeButton
                               ? Icon(
